@@ -1,0 +1,11 @@
+peekFront() peekFront return the m_back pointer instead of m_front pointer
+
+dequeue() In dequeue test, peekFront returns value that is m_back. It could be caused
+1. peekFront return the m_back pointer
+2. enqueue always put the newest entry in the back(FILO)
+
+enqueue() In enqueue test, peekFront returns value that was the oldest entry. It could be caused
+1. peekFront return the m_back
+2. enqueue always put the newest entry in the back(FILO)
+
+~Queue() Program has memery leak after running on valgrind, which means in ~Queue() function, not every pointer being deallocated

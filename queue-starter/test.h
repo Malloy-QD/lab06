@@ -22,12 +22,13 @@ bool test2(); // Check whether can enqueue a queue makes an impty queue size is 
 
 bool test3(); // Enqueue 5 on empty queue and then peekFront return 5
 
-bool test4();
+bool test4(); // Dequeue an empty queue
 
-bool test5();
+bool test5(); // Peek front in an empty queue
 
-bool test6();
+bool test6(); // Check whether enqueue is in the right order
 
-bool test7();
+bool test7(); // Check whether dequeue is in the right order
 
-}
+};
+#endif

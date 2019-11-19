@@ -7,10 +7,11 @@
 #include <iostream>
 #include <stdexcept>
 #include "Queue.h"
-
+#include "test.h"
 int main()
 {
 	Queue q;
-
+	test temp;
+	temp.run();
 	return(0);
 }
